@@ -1,0 +1,62 @@
+
+.navbar  {
+    background-color:$blue;
+    color:$gray;
+    font-size: 1rem;
+    .nav-link {
+        color:$gray;
+    &:hover  {
+        background-color: $dark-blue;
+        color:$gray;
+        }   
+    }
+    
+}
+
+.navbar-brand {
+    img {
+        width: 110px;
+        margin-bottom: 0px;   
+    }
+}
+
+
+
+.navbar-toggler {
+    background-color: $green; 
+}
+
+
+
+#navbarResponsive {
+    li{
+    text-align: right;    
+}
+}
+
+
+#carouselExampleIndicators {
+    margin-top: 15px;
+    margin-bottom:75px;
+    
+    .carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 150px;
+
+    .display-4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+        }
+    }
+}
+
+
+
+

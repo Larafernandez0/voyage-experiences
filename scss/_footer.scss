@@ -1,0 +1,63 @@
+
+footer {
+    
+    background-color:$blue;
+    color: $gray;
+    margin-top: 2rem;
+    p {
+        font-size: .7rem;
+        text-align:center;
+        background-color: $blue;
+        padding-bottom: 20px;       
+    }  
+}
+
+.form-group-a{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    input {
+        font-size: 0.8rem;
+    }
+}
+
+.form-group {
+    .btn-primary {
+        background-color: $green;
+        font-size: 0.8rem;
+        
+    }
+}
+
+
+
+.social-icons {
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 15px;
+        justify-content: center;
+
+        a {  
+            text-decoration: none;
+            padding: 15px;
+            color: $gray;
+        &:hover {
+            color: $green;
+        }
+        
+        }
+    
+    }
+}
+
+
+@media only screen and (min-width: 770px) {
+    .form-group {
+        margin-right: 100px;
+    }
+    .form-group-a {
+    margin-right: 100px;
+    }
+
+}
